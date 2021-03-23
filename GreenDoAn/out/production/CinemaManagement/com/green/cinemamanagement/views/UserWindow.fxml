@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="513.0" prefWidth="741.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <TableView layoutX="26.0" layoutY="143.0" prefHeight="354.0" prefWidth="690.0">
+        <columns>
+          <TableColumn prefWidth="234.0" text="UserID" />
+          <TableColumn minWidth="0.0" prefWidth="224.0" text="User Email" />
+            <TableColumn prefWidth="231.0" text="Pass word" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtFind" layoutX="25.0" layoutY="96.0" prefHeight="31.0" prefWidth="225.0" promptText="Find user by ID" />
+      <Button fx:id="btnFind" layoutX="263.0" layoutY="96.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" text="Find">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
